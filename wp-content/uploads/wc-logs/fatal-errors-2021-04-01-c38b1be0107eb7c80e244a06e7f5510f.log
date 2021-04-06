@@ -1,0 +1,8 @@
+2021-04-01T08:00:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\huzaifa\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2021-04-01T19:05:11+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 352
+
+2021-04-01T19:05:46+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 352
+
+2021-04-01T19:06:49+00:00 CRITICAL syntax error, unexpected '<', expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 352
+

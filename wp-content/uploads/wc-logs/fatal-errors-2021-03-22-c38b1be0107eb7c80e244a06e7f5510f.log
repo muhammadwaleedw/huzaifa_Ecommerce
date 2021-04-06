@@ -1,0 +1,16 @@
+2021-03-22T05:22:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\huzaifa\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-03-22T11:23:25+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce.php on line 3
+
+2021-03-22T12:15:16+00:00 CRITICAL syntax error, unexpected 'title' (T_STRING), expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce.php on line 127
+
+2021-03-22T12:15:32+00:00 CRITICAL syntax error, unexpected 'title' (T_STRING), expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce.php on line 127
+
+2021-03-22T12:58:18+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce.php:160
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce.php on line 160
+

@@ -1,0 +1,60 @@
+2021-03-23T08:01:24+00:00 CRITICAL syntax error, unexpected 'title' (T_STRING), expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 177
+
+2021-03-23T09:44:11+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::mb_strimwidth() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:199
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 199
+
+2021-03-23T09:46:06+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::the_title() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:200
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 200
+
+2021-03-23T09:48:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:199
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 199
+
+2021-03-23T09:49:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:199
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 199
+
+2021-03-23T09:50:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:199
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 199
+
+2021-03-23T13:33:36+00:00 CRITICAL Cannot redeclare data_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:109) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 208
+
+2021-03-23T14:46:29+00:00 CRITICAL Cannot redeclare data_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:109) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 208
+
+2021-03-23T14:48:24+00:00 CRITICAL Cannot redeclare data_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:109) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 208
+
+2021-03-23T20:10:07+00:00 CRITICAL Cannot redeclare data_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:109) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 208
+
+2021-03-23T20:11:49+00:00 CRITICAL Cannot redeclare data_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:109) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 208
+
+2021-03-23T20:12:07+00:00 CRITICAL Cannot redeclare data_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:109) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 208
+
+2021-03-23T20:14:08+00:00 CRITICAL Cannot redeclare data_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:109) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 209
+
+2021-03-23T20:22:12+00:00 CRITICAL Cannot redeclare ajax_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:146) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 221
+
+2021-03-23T22:38:29+00:00 CRITICAL Cannot redeclare ajax_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:146) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 237
+

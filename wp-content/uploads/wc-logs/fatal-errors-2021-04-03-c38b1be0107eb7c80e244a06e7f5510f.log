@@ -1,0 +1,122 @@
+2021-04-03T06:23:15+00:00 CRITICAL Uncaught Error: Call to undefined function yith_is_quick_view() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:23:26+00:00 CRITICAL Uncaught Error: Call to undefined function yith_is_quick_view() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:24:55+00:00 CRITICAL Uncaught Error: Call to undefined function quick_view_shortcode() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:25:05+00:00 CRITICAL Uncaught Error: Call to undefined function quick_view_shortcode() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:25:23+00:00 CRITICAL Uncaught Error: Call to undefined function quick_view_shortcode() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:25:32+00:00 CRITICAL Uncaught Error: Call to undefined function quick_view_shortcode() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:27:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:28:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:188
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 188
+
+2021-04-03T06:48:33+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on bool in C:\xampp\htdocs\huzaifa\wp-content\plugins\quick-view-product-for-woocommerce\includes\oc-ocwqv-front.php:301
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\shortcodes.php(343): OCWQV_front->ocwqv_custom_shortcode_button('', '', 'ocwqv')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\huzaifa\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ocwqv)...', 'do_shortcode_ta...', '[[ocwqv]')
+#3 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php(188): do_shortcode('[[ocwqv]')
+#4 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\quick-view-product-for-woocommerce\includes\oc-ocwqv-front.php on line 301
+
+2021-04-03T06:48:43+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on bool in C:\xampp\htdocs\huzaifa\wp-content\plugins\quick-view-product-for-woocommerce\includes\oc-ocwqv-front.php:301
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\shortcodes.php(343): OCWQV_front->ocwqv_custom_shortcode_button('', '', 'ocwqv')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\huzaifa\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ocwqv)...', 'do_shortcode_ta...', '[[ocwqv]')
+#3 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php(188): do_shortcode('[[ocwqv]')
+#4 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\quick-view-product-for-woocommerce\includes\oc-ocwqv-front.php on line 301
+
+2021-04-03T14:22:25+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 345
+
+2021-04-03T14:22:36+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 345
+
+2021-04-03T14:22:49+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 345
+
+2021-04-03T14:22:56+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 353
+
+2021-04-03T14:23:12+00:00 CRITICAL syntax error, unexpected 'Redux' (T_STRING), expecting ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\theme-config.php on line 337
+
+2021-04-03T16:48:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_templaplate_directory_uri() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:356
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 356
+
+2021-04-03T16:48:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_templaplate_directory_uri() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:356
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 356
+
+2021-04-03T16:49:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_templaplate_directory_uri() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:356
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 356
+

@@ -1,0 +1,84 @@
+2021-03-24T04:18:25+00:00 CRITICAL syntax error, unexpected 'searchInput_test' (T_STRING) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 192
+
+2021-03-24T05:12:22+00:00 CRITICAL Cannot redeclare ajax_fetch() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php:146) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 188
+
+2021-03-24T05:30:52+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 193
+
+2021-03-24T05:38:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php:173
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\front-page.php on line 173
+
+2021-03-24T07:10:23+00:00 CRITICAL syntax error, unexpected '>' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 173
+
+2021-03-24T15:07:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 198 and at least 2 expected in C:\xampp\htdocs\huzaifa\wp-includes\plugin.php:409
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php(198): add_action()
+#1 C:\xampp\htdocs\huzaifa\wp-settings.php(528): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\huzaifa\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-includes\plugin.php on line 409
+
+2021-03-24T17:14:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_breadcrumb() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:14
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 14
+
+2021-03-24T17:14:33+00:00 CRITICAL Uncaught Error: Call to undefined function get_breadcrumb() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:14
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 14
+
+2021-03-24T17:16:20+00:00 CRITICAL syntax error, unexpected 'href' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 195
+
+2021-03-24T19:37:28+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 126
+
+2021-03-24T19:38:20+00:00 CRITICAL Uncaught Error: Call to undefined function post_thumbnail() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:126
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 126
+
+2021-03-24T19:38:45+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 128
+
+2021-03-24T19:40:24+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:125
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 125
+
+2021-03-24T19:47:03+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_breadcrums() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:31
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 31
+
+2021-03-24T19:47:10+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_breadcrum() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:31
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 31
+
+2021-03-24T19:53:06+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 56
+

@@ -1,0 +1,17 @@
+2021-03-31T18:07:25+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 309
+
+2021-03-31T18:07:26+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 309
+
+2021-03-31T18:07:40+00:00 CRITICAL Uncaught Error: Class 'My_Widget' not found in C:\xampp\htdocs\huzaifa\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\widgets.php(115): WP_Widget_Factory->register('My_Widget')
+#1 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php(313): register_widget('My_Widget')
+#2 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(292): wpdocs_register_widgets('')
+#3 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\huzaifa\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\huzaifa\wp-includes\widgets.php(1799): do_action('widgets_init')
+#6 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(292): wp_widgets_init('')
+#7 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\huzaifa\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\huzaifa\wp-settings.php(560): do_action('init') in C:\xampp\htdocs\huzaifa\wp-includes\class-wp-widget-factory.php on line 61
+

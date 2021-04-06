@@ -1,0 +1,4 @@
+2021-03-28T12:08:27+00:00 CRITICAL syntax error, unexpected '(', expecting ';' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\fluid.php on line 10
+
+2021-03-28T12:10:03+00:00 CRITICAL require_once(): Failed opening required 'woocommerce/cart.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\fluid.php on line 7
+

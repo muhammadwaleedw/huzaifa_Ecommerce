@@ -1,0 +1,259 @@
+2021-03-26T05:47:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image_url(), 0 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 33 and at least 1 expected in C:\xampp\htdocs\huzaifa\wp-includes\media.php:1130
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(33): wp_get_attachment_image_url()
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-includes\media.php on line 1130
+
+2021-03-26T05:48:11+00:00 CRITICAL Uncaught Error: Call to undefined function get_attachment_image_url() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:33
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 33
+
+2021-03-26T05:50:44+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1559): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(93): woocommerce_template_single_rating()
+#3 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\rating.php on line 28
+
+2021-03-26T05:51:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_rating_count() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:93
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 93
+
+2021-03-26T05:52:13+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\price.php:25
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(106): woocommerce_template_single_price()
+#3 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\price.php on line 25
+
+2021-03-26T05:52:51+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_price() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T05:53:09+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_regular_price() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T05:54:01+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T05:54:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T05:55:01+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_price() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T05:56:04+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T05:56:30+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_price() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T05:59:12+00:00 CRITICAL Uncaught Error: Call to undefined function wc_regular_price() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:105
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105
+
+2021-03-26T06:00:04+00:00 CRITICAL Uncaught Error: Call to undefined function wc_sale_price() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:105
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105
+
+2021-03-26T06:00:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_format_sale_price(), 1 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105 and exactly 2 expected in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1267
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(105): wc_format_sale_price(NULL)
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 1267
+
+2021-03-26T06:00:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_format_sale_price(), 0 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105 and exactly 2 expected in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1267
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(105): wc_format_sale_price()
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 1267
+
+2021-03-26T06:03:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_price(), 0 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106 and at least 1 expected in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:561
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(106): wc_price()
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 561
+
+2021-03-26T06:28:52+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1267) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 111
+
+2021-03-26T06:28:52+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1267) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 111
+
+2021-03-26T06:29:38+00:00 CRITICAL Cannot redeclare wc_format_sale_price() (previously declared in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1267) in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 111
+
+2021-03-26T06:30:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_format_sale_price(), 0 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105 and exactly 2 expected in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:1267
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(105): wc_format_sale_price()
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 1267
+
+2021-03-26T06:34:48+00:00 CRITICAL syntax error, unexpected '$test' (T_VARIABLE), expecting ',' or ';' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T06:38:23+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:105
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105
+
+2021-03-26T06:38:40+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:105
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105
+
+2021-03-26T06:39:44+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:105
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 105
+
+2021-03-26T06:40:08+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T06:41:41+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:106
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 106
+
+2021-03-26T06:42:13+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on string in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-product-functions.php:963
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(106): wc_get_price_including_tax('teting-product')
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 963
+
+2021-03-26T06:55:01+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 397
+
+2021-03-26T06:57:49+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 413
+
+2021-03-26T06:59:49+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:102
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 102
+
+2021-03-26T07:05:56+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:92
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 92
+
+2021-03-26T07:06:14+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_title() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:92
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 92
+
+2021-03-26T07:06:25+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_name() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:92
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 92
+
+2021-03-26T07:20:05+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\meta.php:28
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1587): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(109): woocommerce_template_single_meta()
+#3 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\meta.php on line 28
+
+2021-03-26T09:41:37+00:00 CRITICAL syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\global\breadcrumb.php on line 32
+
+2021-03-26T10:43:53+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\product-thumbnails.php on line 28
+
+2021-03-26T11:11:21+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\product-image.php on line 52
+

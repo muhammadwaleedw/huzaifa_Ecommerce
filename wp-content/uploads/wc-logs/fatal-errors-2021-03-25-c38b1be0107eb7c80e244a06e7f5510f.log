@@ -1,0 +1,194 @@
+2021-03-25T05:00:54+00:00 CRITICAL require_once(): Failed opening required 'woocommerce/woo_function.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 188
+
+2021-03-25T05:03:03+00:00 CRITICAL require_once(): Failed opening required 'woocommerce/woo_function.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 17
+
+2021-03-25T05:03:42+00:00 CRITICAL require_once(): Failed opening required 'woocommerce/woo_function.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 17
+
+2021-03-25T05:04:56+00:00 CRITICAL require_once(): Failed opening required '' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 17
+
+2021-03-25T05:05:19+00:00 CRITICAL require_once(): Failed opening required 'woocommerce/woofunctions.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php on line 17
+
+2021-03-25T11:23:30+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 118
+
+2021-03-25T11:24:11+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 117
+
+2021-03-25T13:13:25+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 124
+
+2021-03-25T13:14:22+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 122
+
+2021-03-25T13:15:00+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 122
+
+2021-03-25T14:12:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_cart_contents() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:13:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_cart_contents() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:15:55+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:16:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:17:24+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\class-wc-cart.php:140
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php(5): WC_Cart::get_cart_contents()
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 140
+
+2021-03-25T14:17:39+00:00 CRITICAL Uncaught Error: Access to undeclared static property: WC_Cart::$this in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:17:52+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:21:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Cart::get_cart_item(), 0 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5 and exactly 1 expected in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\class-wc-cart.php:613
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php(5): WC_Cart::get_cart_item()
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 613
+
+2021-03-25T14:22:06+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\class-wc-cart.php:614
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php(5): WC_Cart::get_cart_item(NULL)
+#1 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 614
+
+2021-03-25T14:28:18+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:29:33+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 5
+
+2021-03-25T14:32:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:6
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 6
+
+2021-03-25T14:34:59+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php:6
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\archive-product.php on line 6
+
+2021-03-25T14:58:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 111 and at least 2 expected in C:\xampp\htdocs\huzaifa\wp-includes\plugin.php:409
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php(111): add_action('woocommerce_tem...')
+#1 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php(17): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(292): floxia_woocommerce_support('')
+#3 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\huzaifa\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\huzaifa\wp-settings.php(538): do_action('after_setup_the...')
+#6 C:\xampp\htdocs\huzaifa\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\huzaifa\wp-load.php(37): require_o in C:\xampp\htdocs\huzaifa\wp-includes\plugin.php on line 409
+
+2021-03-25T14:58:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php on line 111 and at least 2 expected in C:\xampp\htdocs\huzaifa\wp-includes\plugin.php:409
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\woo_functions.php(111): add_action('woocommerce_tem...')
+#1 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\functions.php(17): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(292): floxia_woocommerce_support('')
+#3 C:\xampp\htdocs\huzaifa\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\huzaifa\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\huzaifa\wp-settings.php(538): do_action('after_setup_the...')
+#6 C:\xampp\htdocs\huzaifa\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\huzaifa\wp-load.php(37): require_o in C:\xampp\htdocs\huzaifa\wp-includes\plugin.php on line 409
+
+2021-03-25T15:06:48+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\meta.php:28
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1587): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(107): woocommerce_template_single_meta()
+#3 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product\meta.php on line 28
+
+2021-03-25T15:14:57+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1363
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1317): woocommerce_get_product_thumbnail()
+#1 C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php(56): woocommerce_template_loop_product_thumbnail()
+#2 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1363
+
+2021-03-25T15:15:38+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_loop_product_url() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:56
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 56
+
+2021-03-25T15:15:56+00:00 CRITICAL Uncaught Error: Call to undefined function product_url() in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:56
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 56
+
+2021-03-25T15:17:40+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php:56
+Stack trace:
+#0 C:\xampp\htdocs\huzaifa\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\huzaifa\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\huzaifa\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\huzaifa\wp-content\themes\Floxia - ECommerce\woocommerce\single-product.php on line 56
+
